@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/blue-geometric-stripes-background_6245064.jpg!bw700');
+    background-size: cover; /* Resmi sayfanın boyutuna sığdır */
+    background-repeat: no-repeat; /* Resmi tekrar etme */
+    background-attachment: fixed; /* Arka planın kaydırılmasını önler */
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* JavaScript tarafından sonuç alanının stilini kontrol etmek için kullanılır */
+#result {
+    font-weight: bold;
+}
