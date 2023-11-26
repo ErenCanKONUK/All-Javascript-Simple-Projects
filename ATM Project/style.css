@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/headline.jpg);
+    background-size: auto; /* Resmi sayfanın boyutuna sığdır */
+    background-repeat:repeat ; /* Resmi tekrar etme */
+    background-attachment: fixed;
+}
+
+.atm {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: rgb(146, 137, 124);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.balance {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="number"] {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
